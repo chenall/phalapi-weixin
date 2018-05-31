@@ -1,0 +1,27 @@
+{
+    "name": "chenall/phalapi-weixin",
+    "description": "PhalApi 2.x 扩展类库：微信公众号、企业号等开发扩展",
+    "type": "library",
+    "keywords": [
+        "phalapi", "phalapi-weixin", "企业微信", "公众号","小程序"
+    ],
+    "license": "GPL-3.0+",
+    "minimum-stability": "dev",
+    "homepage": "https://www.phalapi.net/",
+    "authors": [
+        {
+            "name": "chenall",
+            "email": "chenall.cn@gmail.com",
+            "homepage": "http://chenall.net/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhalApi\\WeiXin\\": "./"
+        }
+    } 
+}
