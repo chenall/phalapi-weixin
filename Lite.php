@@ -17,7 +17,7 @@ class Lite {
      * @return \EasyWeChat\Kernel\ServiceContainer
      */
     public function wxApp(){
-        $factory = $this->Factory;
+        $factory = current(explode('#',$this->Factory));
         $wxapp=Factory::$factory(\PhalApi\DI()->config->get('wx_'.$factory));
         return $wxapp;
     }
